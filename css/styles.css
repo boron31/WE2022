@@ -1,0 +1,73 @@
+body{
+  background: #d0d0d0;
+  font-family: verdana;
+}
+.form{
+  background: #fff;
+  padding: 20px 40px;
+  min-width: 300px;
+  max-width: 30%;
+  margin: 0 auto;
+}
+h2{
+  text-align: center;
+  color: #555;
+}
+label,input{
+  display: block;
+  margin: 18px 0;
+}
+label{
+  text-align: center;
+  color: #777;
+}
+
+.label {
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: verdana;
+  width: 100%;
+}
+.success {
+  background-color: #04AA6D;}
+
+
+input[type='text'],
+input[type='email'],input[type='number'],input[type='tel'], textarea{
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+input[type='submit']{
+  margin: 24px auto;
+  font-size: 18px;
+  background: coral;
+  color: #fff;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 10px;
+}
+
+input[type='submit']:hover{
+  border: 1px solid black;
+} 
+
+.btn-download {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 18px;
+  background: coral;
+  color: #fff;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 10px;
+}
+
+.error{
+  color: coral;
+  font-size: small;
+  padding-left: 4px;
+}
